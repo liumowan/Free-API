@@ -1,38 +1,52 @@
-# Free API · 免费 API 中转站导航
+# Free API · 免费 AI 大模型 API 中转站合集
 
-> 一份持续维护的「免费 / 公益 AI 大模型 API 中转站与免费额度平台」清单。
-> 收录社区公益中转站、官方免费额度平台，以及可自建中转站的开源工具。
-> 如果觉得好用，还请麻烦点个免费的小星星⭐哦~。
+> 这里整理「注册就送额度、隔天还能签到续」的 AI API 中转站。
+> 收录的站基本都兼容 OpenAI / Anthropic 协议 —— Claude Code、Codex、Cursor、Cherry Studio、Open WebUI 这类客户端，只改一个 Base URL 就能直接用。
+> 觉得有用点个 ⭐ Star；发现新的好站，欢迎提 Issue 一起补。
 
 [![License](https://img.shields.io/github/license/liumowan/Free-API)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/liumowan/Free-API?style=social)](https://github.com/liumowan/Free-API)
 
----
+**快速跳转**
 
-## ⚠️ 免责声明（务必先读）
-
-1. **免费额度随时变化**：本清单中的额度、价格、可用性均以各站点实时页面为准，可能在数天内失效或调整。
-2. **公益站 / 中转站存在风险**：社区维护的中转站可能存在「掺水」「跑路」「降级」风险，**请勿传入个人隐私、客户数据或敏感内容**，更不要绑定主账号、不要充值大额资金。
-3. **本清单仅供学习、研究与个人实验用途**，使用过程中请遵守各平台服务条款与当地法律法规。
-
-> 📅 本清单核验时间：**2026-10-23**。欢迎提 Issue / PR 更新失效信息。也欢迎提供未收录的公益站点~
-
----
-
-## 目录
-
-- [一、公益中转站](#一公益中转站)
-- [二、官方免费额度平台](#二官方免费额度平台)
-- [三、开源聚合 / 自建中转工具](#三开源聚合--自建中转工具)
-- [四、快速接入（OpenAI 兼容格式）](#四快速接入openai-兼容格式)
-- [五、使用建议与避坑](#五使用建议与避坑)
-- [六、贡献指南](#六贡献指南)
+[⚠️ 先看风险](#-先看风险20-秒) ·
+[🚀 三步上手](#-三步上手) ·
+[一、签到型中转站](#一签到型中转站额度能续最耐用) ·
+[二、注册送免费型](#二注册送--免费型不用天天签到) ·
+[三、官方免费额度](#三官方免费额度不用中转直接用) ·
+[四、自建中转](#四自建中转想稳定就自己当站长) ·
+[五、客户端接入](#五客户端接入复制就能用) ·
+[六、避坑清单](#六避坑清单) ·
+[七、常见问题](#七常见问题) ·
+[八、更新与贡献](#八更新与贡献)
 
 ---
 
-## 一、公益中转站
+## ⚠️ 先看风险（20 秒）
 
-| 名称 | 地址 | 免费额度 | 覆盖模型 | 备注 |
+- **额度是流动的**：下面写的数字都是核验当天的，站方随时可能改。用之前以站内公告为准。
+- **中转站 ≠ 官方**：可能限速、掺水、忽然跑路，甚至留底你的请求。**别传隐私、客户资料和企业代码，别绑主力账号，别充大额。**
+- **用途限定**：个人学习、实验、跑玩具项目；同时遵守各站条款和当地法律。
+
+> 📅 核验时间：**2026-10-24**
+
+---
+
+## 🚀 三步上手
+
+1. **挑一个站注册** —— 点下面表格里的链接进去注册。注册页通常会自动带上邀请关系，提交前扫一眼那一栏别是空的。
+2. **生成密钥** —— 登录站内控制台，在「令牌 / API Key」页新建一把，复制 `sk-` 开头的那串。
+3. **填进客户端** —— Base URL 填站里给的接口地址，Key 填上一步复制的，模型名照抄站内列表。
+
+> 卡住了先翻 [常见问题](#七常见问题)，大部分报错那儿都有答案。
+
+---
+
+## 一、签到型中转站（额度能续，最耐用）
+
+这一类的好处在**能续**：注册拿一笔，之后每天签到 / 做任务再领一笔。想长期白嫖，主力就从这里挑。
+
+| 站点 | 注册链接 | 额度与续命方式 | 可用模型 | 说明 |
 | --- | --- | --- | --- | --- |
 | Any Router | https://anyrouter.top/register?aff=b7Zz | 完全免费，新用户注册赠 $100，签到送 $25 | 10+ 模型（主要为Claude） | Linux Do信任等级需≥2方可注册 |
 | Agent Router | https://agentrouter.org/register?aff=Wpra | 完全免费，新用户注册赠 $100，签到送 $25 | GPT / Deepseek | github注册满5年或者Linux Do信任等级≥0方可注册 |
@@ -43,30 +57,39 @@
 | Factory.pub | https://factory.pub/sign-up?aff=kGm7 | 每日签到获取免费额度 | Claude / GPT / Glm / Deepseek 等26个模型 | 目前只支持yaohuo和github注册 |
 | 快跑API | https://kuaipao.ai/register?aff=NGy3 | 每日签到获取免费额度 | Claude / GPT / Glm / Deepseek 等100+个模型 | 注册无限制 |
 | BER分公益站 | https://ai.berf1.cn/sign-up?aff=tZVY | 每日签到获取免费额度 | Glm / Deepseek 等4个模型 | 注册无限制 |
-| PM-API | https://pmcat.top/#/register?aff=62Cpi9 | 完全免费，无签到 | Claude / GPT / Glm / Deepseek 等75个模型 | Linux Do信任等级需≥1方可注册 |
 | 月城公益站 | https://52ccl.net/sign-up?aff=LzLl | 每日签到获取免费额度 | xAI / GPT / Glm / Deepseek 等64个模型 | Linux Do信任等级需≥1方可注册 |
 | Pomelo | https://api.67.si/sign-up?aff=KOrM | 每日签到获取免费额度 | xAI / GPT / Glm / Deepseek 等17个模型 | 不支持账号密码注册，只支持第三方注册；Linux Do信任等级需≥1方可注册 |
 | hkai | https://share.hkai25.top/sign-up?aff=XKfc | 每日签到获取免费额度 | deepseek-v4.1-flash | 只支持Linux Do；信任等级需≥1方可注册 |
 | Huan API | https://ai.huan666.de/sign-up?aff=F3JY | 每日签到获取免费额度 | Claude / XAI / MOONSHOT / Deepseek 等17个模型 | Linux Do信任等级需≥2方可注册 |
 | 42 API | https://api.42x.shop/sign-up?aff=4QUl | 每日签到获取免费额度 | xAI / GPT / Glm / Deepseek 等113个模型 | Linux Do信任等级需≥2方可注册 |
-| onomeo | https://onomeo.com | 免费用量按次数给：17 个免费模型，每个账号每 5 小时 30 次，不用签到、没有站内积分；网页画图每个账号每天 10 张，免费；注册不用绑卡；付费可选（5 美元起充，余额以美元显示、不过期，按量用于 Claude、GPT 等大模型和 DeepSeek 编程专线），不付费也能用免费模型 | 一个 OpenAI 格式密钥可调 17 个免费模型（DeepSeek V4 Flash / GLM / Gemini Flash / Codestral 等），另有按量付费的大模型（Claude / GPT / Gemini Pro 等 13 个）和 DeepSeek 编程专线 | 个人小站，限制严格：每个密钥每分钟 12 次；每个账号每 5 小时 30 次（长消息按长度折成几次），付款后 35 天内放宽到 90 次；全站免费次数共用一份总量，人多时可能暂时用完；大模型和编程专线按量付费，仅向充过值的账号开放；经邀请链接注册并在两个不同日期使用后，邀请双方的免费次数提高到每 5 小时 45 次（7 天）；免费模型走各家模型服务商自己的免费档，很多上游可能拿提示词训练（每个模型页有注明）。公测中，不保证所有功能都能正常使用，正在大量收集用户反馈，欢迎提交 |
-| BlockRun | https://blockrun.ai | 完全免费，无签到 | 英伟达 等7个模型 |  |
-| NovAI (AI API Pro) | https://aiapi-pro.com/register | 注册送 $2（无需信用卡） | 5 个永久免费无限模型：glm-4.7-flash、glm-4.6v-flash、glm-4.1v-thinking-flash、cogview-3-flash、cogvideox-flash | 121 个中国前沿模型（DeepSeek/Qwen/GLM/Kimi/Seedance/MiniMax/混元/CogVideo）聚合在一个 OpenAI 兼容端点；0% 平台加价；海外无需中国手机号/支付宝 |
-| 简单AI聚合站 (APIOP) | https://apiop.cn/register?invite_code=QEN2AKUH | 注册送 20M Tokens；部分自建模型支持免费调用 | DeepSeek / GLM / Kimi / MiniMax 等 5 个精选模型 | OpenAI 兼容·按量付费；官方折扣渠道，一个 Key 全网调用 |
 | DoCode | https://docode.cc/register?aff=Hm6T | 注册送 50 站内刀，填邀请码再加 250，首日 300 站内刀；之后每日免费抽奖+充值优惠券 | Claude（sonnet-5 / opus4.6）与 GPT pro/plus、Grok、Gemini 等 | New API 中转站；Anthropic + OpenAI 兼容，Claude Code / Codex 直连；加QQ群解锁超多福利；「站内刀」为站内计价单位非美元 |
-| Happy Code | https://happycodeai.com/register?aff=9LKMZ833F988 | 注册送 $100 额度；加入 QQ 群领新人体验包 | 登录后台查看 | 支持 OIDC（NodeLoc）/ 账号密码登录；需加 QQ 群 367746547 找群主领取新人体验包 |
 | Prime Relay | https://www.primerelay.online/register?aff=D3TRJRYDWQD2 | 注册送 $20 额度；支持每日签到 | Claude / GPT / DeepSeek / Grok / Gemini 等 | OpenAI 兼容；需进 QQ 群 239561070 |
 | JustDoWork | https://api.justwoker.icu/register?aff=zvgn | 注册送 ≈$70 额度；每日签到再领 ≈$22 | 登录后台查看 | New API 面板；目前仅支持 GitHub 注册（GitHub 账号需满 365 天）；支持签到与绘图 |
 | FlushAPI | https://flushapi.fun/sign-up?aff=6wiA | 注册送 $15，填邀请码共 $22.5；支持每日签到 | claude-fable-5、claude-opus-4-8、claude-opus-5、claude-sonnet-5、gpt-5.6-luna、gpt-5.6-sol、gpt-6-astra | New API 网关；仅支持 GitHub 注册；Anthropic + OpenAI 兼容，Claude Code / Codex 直连 |
 | KKtoken AI | https://kktoken.cc/sign-up?aff=lVpL | 注册送 $75，填邀请码再加 $25，首签 $20（首日共 $120）；之后每天签到 $20 | 登录后台查看 | New API 中转站；仅支持 GitHub 注册；按 token 计费（输入/输出各 $1/百万 tokens）；Anthropic + OpenAI 兼容 |
 
+---
+
+## 二、注册送 / 免费型（不用天天签到）
+
+懒得每天打卡？看这类：注册送一笔、或者直接给固定免费额度，**不需要签到也一直能用**。额度通常没上面那类大，但胜在省事。
+
+| 站点 | 注册链接 | 额度 | 可用模型 | 说明 |
+| --- | --- | --- | --- | --- |
+| PM-API | https://pmcat.top/#/register?aff=62Cpi9 | 完全免费，无签到 | Claude / GPT / Glm / Deepseek 等75个模型 | Linux Do信任等级需≥1方可注册 |
+| BlockRun | https://blockrun.ai | 完全免费，无签到 | 英伟达 等7个模型 |  |
+| Happy Code | https://happycodeai.com/register?aff=9LKMZ833F988 | 注册送 $100 额度；加入 QQ 群领新人体验包 | 登录后台查看 | 支持 OIDC（NodeLoc）/ 账号密码登录；需加 QQ 群 367746547 找群主领取新人体验包 |
+| 简单AI聚合站 (APIOP) | https://apiop.cn/register?invite_code=QEN2AKUH | 注册送 20M Tokens；部分自建模型支持免费调用 | DeepSeek / GLM / Kimi / MiniMax 等 5 个精选模型 | OpenAI 兼容·按量付费；官方折扣渠道，一个 Key 全网调用 |
+| NovAI (AI API Pro) | https://aiapi-pro.com/register | 注册送 $2（无需信用卡） | 5 个永久免费无限模型：glm-4.7-flash、glm-4.6v-flash、glm-4.1v-thinking-flash、cogview-3-flash、cogvideox-flash | 121 个中国前沿模型（DeepSeek/Qwen/GLM/Kimi/Seedance/MiniMax/混元/CogVideo）聚合在一个 OpenAI 兼容端点；0% 平台加价；海外无需中国手机号/支付宝 |
+| onomeo | https://onomeo.com | 免费用量按次数给：17 个免费模型，每个账号每 5 小时 30 次，不用签到、没有站内积分；网页画图每个账号每天 10 张，免费；注册不用绑卡；付费可选（5 美元起充，余额以美元显示、不过期，按量用于 Claude、GPT 等大模型和 DeepSeek 编程专线），不付费也能用免费模型 | 一个 OpenAI 格式密钥可调 17 个免费模型（DeepSeek V4 Flash / GLM / Gemini Flash / Codestral 等），另有按量付费的大模型（Claude / GPT / Gemini Pro 等 13 个）和 DeepSeek 编程专线 | 个人小站，限制严格：每个密钥每分钟 12 次；每个账号每 5 小时 30 次（长消息按长度折成几次），付款后 35 天内放宽到 90 次；全站免费次数共用一份总量，人多时可能暂时用完；大模型和编程专线按量付费，仅向充过值的账号开放；经邀请链接注册并在两个不同日期使用后，邀请双方的免费次数提高到每 5 小时 45 次（7 天）；免费模型走各家模型服务商自己的免费档，很多上游可能拿提示词训练（每个模型页有注明）。公测中，不保证所有功能都能正常使用，正在大量收集用户反馈，欢迎提交 |
 
 ---
 
-## 二、官方免费额度平台
+## 三、官方免费额度（不用中转，直接用）
 
+不想经过第三方、或者要跑正经项目，直接去厂家的平台领额度。缺点是每家都要单独注册、额度有期限。
 
-### 国内平台
+### 国内
 
 | 平台 | 地址 | 免费额度 | 亮点 |
 | --- | --- | --- | --- |
@@ -79,7 +102,7 @@
 | 商汤日日新 | `https://platform.sensenova.cn` | 公测期通用积分池与 Flash-Lite 专属池各提供 6 万积分/滚动 5 小时 和 60 万积分/滚动周 | OpenAI 兼容，支持 20 个 Key |
 | 魔搭社区 ModelScope | `https://modelscope.cn` | 魔棒（Magicube）兑换：轻量 ~0.5/次、标准 ~1/次、旗舰 ~2/次；并发按负载动态限流 | 3000+ 模型，适合横评。需绑定阿里云账号并实名 |
 
-### 海外平台
+### 海外
 
 | 平台 | 地址 | 免费额度 | 亮点 |
 | --- | --- | --- | --- |
@@ -95,9 +118,9 @@
 
 ---
 
-## 三、开源聚合 / 自建中转工具
+## 四、自建中转（想稳定就自己当站长）
 
-> 不想依赖第三方中转站？可以自建一个属于自己的「中转站」。
+第三方站随时可能关门，最稳的办法是把各家免费额度接进自己的网关，一把 Key 管全部。
 
 | 项目 | 地址 | 说明 |
 | --- | --- | --- |
@@ -106,7 +129,7 @@
 | FreeLLMAPI | `github.com/Alvaro-Cintas/freellmapi` | 聚合 14+ 家免费额度为单一 OpenAI 端点，自动故障转移 |
 | AI Proxy | `github.com/labring/aiproxy` | 企业级生产网关，多租户、负载均衡、自动重试 |
 
-**New-API 快速部署（Docker）：**
+**New-API 一条命令起（Docker）：**
 
 ```bash
 docker run -d --name new-api \
@@ -118,58 +141,84 @@ docker run -d --name new-api \
 
 ---
 
-## 四、快速接入（OpenAI 兼容格式）
+## 五、客户端接入（复制就能用）
 
-绝大多数平台 / 中转站都兼容 OpenAI 格式，只需替换 `base_url` 与 `api_key`。
+### OpenAI 协议（Python）
 
 ```python
 from openai import OpenAI
 
 client = OpenAI(
-    base_url="https://你的中转站地址/v1",   # 例如 https://api.iamhc.cn/v1
-    api_key="你的 sk- 开头的密钥",
+    base_url="https://你选的中转站/v1",   # 表里每个站的接口地址
+    api_key="sk- 开头的那串密钥",
 )
 
 resp = client.chat.completions.create(
-    model="gpt-4o-mini",                     # 换成你需要的模型名
+    model="站内列表里的模型名",             # 名字要照抄，写错会报 model not found
     messages=[{"role": "user", "content": "你好"}],
 )
 print(resp.choices[0].message.content)
 ```
 
-**Claude Code / Anthropic 兼容配置示例：**
+### Anthropic 协议（Claude Code 等）
 
 ```json
 {
   "env": {
-    "ANTHROPIC_API_KEY": "你的 sk- 开头密钥",
-    "ANTHROPIC_AUTH_TOKEN": "你的 sk- 开头密钥",
-    "ANTHROPIC_BASE_URL": "https://你的中转站地址"
+    "ANTHROPIC_API_KEY": "sk- 开头的那串密钥",
+    "ANTHROPIC_AUTH_TOKEN": "sk- 开头的那串密钥",
+    "ANTHROPIC_BASE_URL": "https://你选的中转站"
   }
 }
 ```
 
----
-
-## 五、使用建议与避坑
-
-1. **开「用完即停」**：很多平台免费额度用完后会从绑定的卡扣费，务必关闭自动续费。
-2. **免费额度有期限**：赠送 Token 常有 30 / 90 天有效期，领取后尽快使用。
-3. **速率限制是隐形成本**：免费层普遍有 RPM / TPM 限制，高并发场景用多个平台组合，或自建 One API / New-API 做多渠道调度。
-4. **国内 + 国际组合**：国内平台中文强、延迟低；国际平台模型新、选择多，按场景切换。
-5. **Key 安全**：不要泄露 Key，中转站场景尽量用「专用子账号」，并在各平台设置单日消费上限。
+> 注意：Anthropic 协议的 Base URL **不要带 `/v1`**，这是最常见的 401 原因。
 
 ---
 
-## 六、贡献指南
+## 六、避坑清单
 
-欢迎补充新站点、修正失效信息。请遵循：
+1. **关掉自动续费**：有些平台免费额度用完后会从绑卡扣钱，务必把「用完即停」打开。
+2. **赠额通常有期限**：30 / 90 天很常见，领了别囤着。
+3. **速率限制是隐性成本**：免费层普遍卡 RPM / TPM，高并发就多备几个站，或自建网关做多渠道调度。
+4. **国内 + 国际混着用**：国产模型中文稳、延迟低；海外模型新、选择多，按任务切。
+5. **Key 当密码管**：别外泄；中转站场景尽量用「专用子账号」，并给每家设单日消费上限。
+6. **重要项目别走公益站**：随时关站，正经活儿用官方 API。
 
-1. **一个站点一个条目**，提供名称、地址、免费额度、覆盖模型。
-2. 公益站需满足**可通过每日签到或做任务获取免费额度**/**有免费模型可以调用**，满足任意一个条件即可。
-3. 提交时注明你的**核验日期**。
+---
 
-提交方式：直接提 Issue。
+## 七、常见问题
+
+**注册完额度显示 0 ？**
+多数字是登录时才结算的，退出重新登录一次，或者刷新页面；短暂显示 0 通常是展示问题。
+
+**Claude Code 报 401 ？**
+先查 Base URL 是不是误带了 `/v1`；再确认 Key 复制完整、模型名在站内可用清单里。
+
+**返回 400 / content blocked ？**
+部分站只放行中、英、法、德、俄几种语言，提示词里混了别的语种会被上游拦掉。
+
+**表里的「站内刀」「积分」是美元吗？**
+不是。那是各站自定的计价单位，跟美元没有公开换算关系，看额度明细时别按美元算。
+
+**会不会顶掉我自己的 Claude 订阅登录？**
+会。环境变量优先级更高，想切回订阅就把 `ANTHROPIC_BASE_URL` / `ANTHROPIC_AUTH_TOKEN` / `ANTHROPIC_MODEL` 取消后重开终端。
+
+**签到的站忽然不能用了？**
+公益站关站很常见。策略是同时留 3~5 个站轮换，或者干脆自建 New-API 聚合。
+
+---
+
+## 八、更新与贡献
+
+- **核验节奏**：表内额度、模型、可用性都是我人工核验后写入的，核验日期见文首；站方改规则不会实时同步，发现过期欢迎提 Issue。
+- **投稿格式**：一站一条，给出「站点名 + 注册链接 + 能拿多少额度 + 支持哪些模型」。
+- **收录标准**：满足下面任意一条即可 —— ① 能通过每日签到 / 做任务拿免费额度；② 有可免费调用的模型。
+- **提交方式**：直接开 Issue。
+
+### ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=liumowan/Free-API&type=Date)](https://star-history.com/#liumowan/Free-API&Date)
 
 ---
 
