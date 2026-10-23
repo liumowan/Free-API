@@ -57,6 +57,7 @@
 | Happy Code | https://happycodeai.com/register?aff=9LKMZ833F988 | 注册送 $100 额度；加入 QQ 群领新人体验包 | 登录后台查看 | 支持 OIDC（NodeLoc）/ 账号密码登录；需加 QQ 群 367746547 找群主领取新人体验包 |
 | Prime Relay | https://www.primerelay.online/register?aff=D3TRJRYDWQD2 | 注册送 $20 额度；支持每日签到 | Claude / GPT / DeepSeek / Grok / Gemini 等 | OpenAI 兼容；需进 QQ 群 239561070 |
 | JustDoWork | https://api.justwoker.icu/register?aff=zvgn | 注册送 ≈$70 额度；每日签到再领 ≈$22 | 登录后台查看 | New API 面板；目前仅支持 GitHub 注册（GitHub 账号需满 365 天）；支持签到与绘图 |
+| FlushAPI | https://flushapi.fun/sign-up?aff=6wiA | 注册送 $15，填邀请码共 $22.5；支持每日签到 | claude-fable-5、claude-opus-4-8、claude-opus-5、claude-sonnet-5、gpt-5.6-luna、gpt-5.6-sol、gpt-6-astra | New API 网关；仅支持 GitHub 注册；Anthropic + OpenAI 兼容，Claude Code / Codex 直连 |
 
 
 ---
