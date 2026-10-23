@@ -53,6 +53,7 @@
 | BlockRun | https://blockrun.ai | 完全免费，无签到 | 英伟达 等7个模型 |  |
 | NovAI (AI API Pro) | https://aiapi-pro.com/register | 注册送 $2（无需信用卡） | 5 个永久免费无限模型：glm-4.7-flash、glm-4.6v-flash、glm-4.1v-thinking-flash、cogview-3-flash、cogvideox-flash | 121 个中国前沿模型（DeepSeek/Qwen/GLM/Kimi/Seedance/MiniMax/混元/CogVideo）聚合在一个 OpenAI 兼容端点；0% 平台加价；海外无需中国手机号/支付宝 |
 | 简单AI聚合站 (APIOP) | https://apiop.cn/register?invite_code=QEN2AKUH | 注册送 20M Tokens；部分自建模型支持免费调用 | DeepSeek / GLM / Kimi / MiniMax 等 5 个精选模型 | OpenAI 兼容·按量付费；官方折扣渠道，一个 Key 全网调用 |
+| DoCode | https://docode.cc/register?aff=Hm6T | 注册送 50 站内刀，填邀请码再加 250，首日 300 站内刀；之后每日免费抽奖+充值优惠券 | Claude（sonnet-5 / opus4.6）与 GPT pro/plus、Grok、Gemini 等 | New API 中转站；Anthropic + OpenAI 兼容，Claude Code / Codex 直连；加QQ群解锁超多福利；「站内刀」为站内计价单位非美元 |
 
 
 ---
