@@ -56,6 +56,7 @@
 | DoCode | https://docode.cc/register?aff=Hm6T | 注册送 50 站内刀，填邀请码再加 250，首日 300 站内刀；之后每日免费抽奖+充值优惠券 | Claude（sonnet-5 / opus4.6）与 GPT pro/plus、Grok、Gemini 等 | New API 中转站；Anthropic + OpenAI 兼容，Claude Code / Codex 直连；加QQ群解锁超多福利；「站内刀」为站内计价单位非美元 |
 | Happy Code | https://happycodeai.com/register?aff=9LKMZ833F988 | 注册送 $100 额度；加入 QQ 群领新人体验包 | 登录后台查看 | 支持 OIDC（NodeLoc）/ 账号密码登录；需加 QQ 群 367746547 找群主领取新人体验包 |
 | Prime Relay | https://www.primerelay.online/register?aff=D3TRJRYDWQD2 | 注册送 $20 额度；支持每日签到 | Claude / GPT / DeepSeek / Grok / Gemini 等 | OpenAI 兼容；需进 QQ 群 239561070 |
+| JustDoWork | https://api.justwoker.icu/register?aff=zvgn | 注册送 ≈$70 额度；每日签到再领 ≈$22 | 登录后台查看 | New API 面板；目前仅支持 GitHub 注册（GitHub 账号需满 365 天）；支持签到与绘图 |
 
 
 ---
