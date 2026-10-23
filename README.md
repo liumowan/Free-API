@@ -58,6 +58,7 @@
 | Prime Relay | https://www.primerelay.online/register?aff=D3TRJRYDWQD2 | 注册送 $20 额度；支持每日签到 | Claude / GPT / DeepSeek / Grok / Gemini 等 | OpenAI 兼容；需进 QQ 群 239561070 |
 | JustDoWork | https://api.justwoker.icu/register?aff=zvgn | 注册送 ≈$70 额度；每日签到再领 ≈$22 | 登录后台查看 | New API 面板；目前仅支持 GitHub 注册（GitHub 账号需满 365 天）；支持签到与绘图 |
 | FlushAPI | https://flushapi.fun/sign-up?aff=6wiA | 注册送 $15，填邀请码共 $22.5；支持每日签到 | claude-fable-5、claude-opus-4-8、claude-opus-5、claude-sonnet-5、gpt-5.6-luna、gpt-5.6-sol、gpt-6-astra | New API 网关；仅支持 GitHub 注册；Anthropic + OpenAI 兼容，Claude Code / Codex 直连 |
+| KKtoken AI | https://kktoken.cc/sign-up?aff=lVpL | 注册送 $75，填邀请码再加 $25，首签 $20（首日共 $120）；之后每天签到 $20 | 登录后台查看 | New API 中转站；仅支持 GitHub 注册；按 token 计费（输入/输出各 $1/百万 tokens）；Anthropic + OpenAI 兼容 |
 
 
 ---
