@@ -7,6 +7,8 @@
 [![License](https://img.shields.io/github/license/liumowan/Free-API)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/liumowan/Free-API?style=social)](https://github.com/liumowan/Free-API)
 
+> 🌐 **网页版导航（可搜索、可筛选，比 Markdown 好用）** → <https://liumowan.github.io/Free-API/>
+
 **快速跳转**
 
 [⚠️ 先看风险](#-先看风险20-秒) ·

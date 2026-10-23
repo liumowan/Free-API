@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>免费 AI API 中转站导航 · 注册送额度 / 每日签到续命</title>
+<meta name="description" content="免费 AI 大模型 API 中转站合集：注册送额度、每日签到续命，兼容 OpenAI / Anthropic 协议，Claude Code、Codex、Cursor 改个 Base URL 就能用。">
+<meta name="keywords" content="免费API,AI API中转站,new-api,one-api,claude code,codex,免费额度,签到,白嫖API,gpt api,openai兼容">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://liumowan.github.io/Free-API/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="免费 AI API 中转站导航">
+<meta property="og:description" content="注册送额度 · 每日签到续命 · Claude Code / Codex 白嫖指南">
+<meta property="og:url" content="https://liumowan.github.io/Free-API/">
+<meta name="theme-color" content="#2563eb">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🆓</text></svg>">
+<style>
+  :root {
+    --bg: #f6f7f9;
+    --card: #ffffff;
+    --text: #1a1d21;
+    --muted: #6b7280;
+    --line: #e5e7eb;
+    --accent: #2563eb;
+    --accent-soft: #eff6ff;
+    --warn-bg: #fff7ed;
+    --warn-line: #fed7aa;
+    --shadow: 0 1px 2px rgba(16,24,40,.06), 0 4px 12px rgba(16,24,40,.04);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1115;
+      --card: #171a21;
+      --text: #e8eaed;
+      --muted: #9aa1ac;
+      --line: #262b34;
+      --accent: #60a5fa;
+      --accent-soft: #16233a;
+      --warn-bg: #241a10;
+      --warn-line: #4a3418;
+      --shadow: 0 1px 2px rgba(0,0,0,.4), 0 4px 12px rgba(0,0,0,.25);
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 15px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 32px 18px 64px; }
+  header h1 { font-size: 28px; margin: 0 0 8px; letter-spacing: -.02em; }
+  header p.lead { margin: 0 0 20px; color: var(--muted); max-width: 760px; }
+  .stats { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
+  .stat {
+    background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+    padding: 8px 12px; font-size: 13px; color: var(--muted); box-shadow: var(--shadow);
+  }
+  .stat b { color: var(--text); font-size: 15px; }
+  .notice {
+    background: var(--warn-bg); border: 1px solid var(--warn-line); border-radius: 12px;
+    padding: 14px 16px; margin-bottom: 22px; font-size: 14px;
+  }
+  .notice strong { color: var(--text); }
+  .notice ul { margin: 8px 0 0; padding-left: 18px; }
+  .notice li { margin: 3px 0; }
+  .toolbar {
+    position: sticky; top: 0; z-index: 10; background: var(--bg);
+    padding: 12px 0; margin-bottom: 8px; border-bottom: 1px solid var(--line);
+  }
+  .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  #q {
+    flex: 1 1 240px; min-width: 200px; padding: 10px 14px; font-size: 15px;
+    border: 1px solid var(--line); border-radius: 10px; background: var(--card); color: var(--text);
+  }
+  #q:focus { outline: 2px solid var(--accent); outline-offset: 1px; border-color: transparent; }
+  .chip {
+    cursor: pointer; user-select: none; border: 1px solid var(--line); background: var(--card);
+    color: var(--muted); padding: 8px 13px; border-radius: 999px; font-size: 13px; transition: .15s;
+  }
+  .chip:hover { color: var(--text); border-color: var(--accent); }
+  .chip.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+  @media (prefers-color-scheme: dark) { .chip.on { color: #0b1220; } }
+  .tags { margin: 10px 0 4px; gap: 6px; }
+  .tags .chip { padding: 4px 10px; font-size: 12px; }
+  .count { color: var(--muted); font-size: 13px; margin: 14px 0 10px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 14px; }
+  .card {
+    background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    padding: 16px; display: flex; flex-direction: column; box-shadow: var(--shadow);
+  }
+  .card h3 { margin: 0 0 8px; font-size: 17px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .badge { font-size: 11px; padding: 2px 8px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+  .badge.free { background: #ecfdf5; color: #047857; }
+  @media (prefers-color-scheme: dark) { .badge.free { background: #0d2b22; color: #34d399; } }
+  .kv { font-size: 13.5px; margin: 4px 0; }
+  .kv .k { color: var(--muted); margin-right: 6px; }
+  .note { color: var(--muted); font-size: 12.5px; margin-top: 8px; padding-top: 8px; border-top: 1px dashed var(--line); }
+  .cta { margin-top: 12px; display: flex; gap: 8px; align-items: center; }
+  .btn {
+    display: inline-block; background: var(--accent); color: #fff; padding: 8px 14px;
+    border-radius: 9px; font-size: 13.5px; font-weight: 600; border: 0; cursor: pointer;
+  }
+  @media (prefers-color-scheme: dark) { .btn { color: #0b1220; } }
+  .btn:hover { filter: brightness(1.08); text-decoration: none; }
+  .btn.ghost { background: transparent; color: var(--muted); border: 1px solid var(--line); font-weight: 500; }
+  .btn.ghost:hover { color: var(--text); border-color: var(--accent); }
+  .empty { color: var(--muted); padding: 40px 0; text-align: center; }
+  footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
+  .section-title { margin: 34px 0 12px; font-size: 19px; }
+  .section-title span { color: var(--muted); font-size: 13px; font-weight: 400; margin-left: 8px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>免费 AI API 中转站导航</h1>
+    <p class="lead">
+      收录「注册送额度 + 每日签到续命」的 AI 大模型 API 中转站。站内基本都兼容 OpenAI / Anthropic 协议，
+      Claude Code、Codex、Cursor、Cherry Studio 这类客户端只改一个 Base URL 就能直接用。
+    </p>
+    <div class="stats" id="stats"></div>
+  </header>
+
+  <div class="notice">
+    <strong>⚠️ 用法风险，先看这三条</strong>
+    <ul>
+      <li>额度随时会变，本页数据以站点实际公告为准。</li>
+      <li>中转站不是官方，可能限速、掺水、跑路。别传隐私/企业代码，别绑主力账号，别大额充值。</li>
+      <li>仅限个人学习与实验用途，请遵守各站条款和当地法律。</li>
+    </ul>
+  </div>
+
+  <div class="toolbar">
+    <div class="row">
+      <input id="q" type="search" placeholder="搜索站点名、模型、标签……（如 claude、gemini、签到）" autocomplete="off">
+      <div class="row" id="groupFilter"></div>
+    </div>
+    <div class="row tags" id="tagFilter"></div>
+  </div>
+
+  <div class="count" id="count"></div>
+  <div id="app"></div>
+
+  <footer>
+    <p>
+      数据源 <a href="https://github.com/liumowan/Free-API/blob/main/data/stations.json">data/stations.json</a>，
+      页面由脚本自动生成 ·
+      <a href="https://github.com/liumowan/Free-API">GitHub 仓库</a> ·
+      <a href="https://github.com/liumowan/Free-API/issues">投稿 / 纠错</a>
+    </p>
+    <p>本站只做信息聚合，与各站点无隶属关系，不代收费用、不承诺可用性。公益站可能随时改规则或关站。</p>
+  </footer>
+</div>
+
+<script src="data.js"></script>
+<script>
+(function () {
+  var DATA = window.FREE_API_DATA || { stations: [], groups: {}, updated: '' };
+  var list = DATA.stations.slice();
+
+  var state = { q: '', group: 'all', tag: '' };
+  var GROUP_LABEL = DATA.groups || {};
+  var GROUP_SHORT = { signin: '签到型', free: '注册送 / 免费型' };
+
+  // ---- 统计 ----
+  var nSignin = list.filter(function (s) { return s.group === 'signin'; }).length;
+  var nFree = list.filter(function (s) { return s.group === 'free'; }).length;
+  document.getElementById('stats').innerHTML = [
+    '<div class="stat">收录 <b>' + list.length + '</b> 个站点</div>',
+    '<div class="stat">签到型 <b>' + nSignin + '</b></div>',
+    '<div class="stat">注册送 / 免费型 <b>' + nFree + '</b></div>',
+    '<div class="stat">数据更新 <b>' + (DATA.updated || '-') + '</b></div>'
+  ].join('');
+
+  // ---- 分组按钮 ----
+  var gf = document.getElementById('groupFilter');
+  var groups = [['all', '全部']].concat(Object.keys(GROUP_LABEL).map(function (k) {
+    return [k, GROUP_SHORT[k] || GROUP_LABEL[k]];
+  }));
+  groups.forEach(function (g) {
+    var b = document.createElement('div');
+    b.className = 'chip' + (g[0] === state.group ? ' on' : '');
+    b.textContent = g[1];
+    b.onclick = function () {
+      state.group = g[0];
+      [].forEach.call(gf.children, function (c) { c.classList.remove('on'); });
+      b.classList.add('on');
+      render();
+    };
+    gf.appendChild(b);
+  });
+
+  // ---- 标签 ----
+  var tagCount = {};
+  list.forEach(function (s) { (s.tags || []).forEach(function (t) { tagCount[t] = (tagCount[t] || 0) + 1; }); });
+  var topTags = Object.keys(tagCount).sort(function (a, b) { return tagCount[b] - tagCount[a]; }).slice(0, 14);
+  var tf = document.getElementById('tagFilter');
+  topTags.forEach(function (t) {
+    var b = document.createElement('div');
+    b.className = 'chip';
+    b.textContent = t + ' ' + tagCount[t];
+    b.onclick = function () {
+      state.tag = (state.tag === t) ? '' : t;
+      [].forEach.call(tf.children, function (c) { c.classList.remove('on'); });
+      if (state.tag) b.classList.add('on');
+      render();
+    };
+    tf.appendChild(b);
+  });
+
+  document.getElementById('q').addEventListener('input', function (e) {
+    state.q = e.target.value.trim().toLowerCase();
+    render();
+  });
+
+  function match(s) {
+    if (state.group !== 'all' && s.group !== state.group) return false;
+    if (state.tag && (s.tags || []).indexOf(state.tag) === -1) return false;
+    if (!state.q) return true;
+    var hay = [s.name, s.quota, s.models, s.note, (s.tags || []).join(' ')].join(' ').toLowerCase();
+    return hay.indexOf(state.q) !== -1;
+  }
+
+  function esc(str) {
+    return String(str == null ? '' : str).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+
+  function card(s) {
+    var isFree = s.group === 'free';
+    return '<div class="card">' +
+      '<h3>' + esc(s.name) +
+        '<span class="badge' + (isFree ? ' free' : '') + '">' + esc(GROUP_SHORT[s.group] || '') + '</span>' +
+      '</h3>' +
+      '<div class="kv"><span class="k">额度</span>' + esc(s.quota) + '</div>' +
+      '<div class="kv"><span class="k">模型</span>' + esc(s.models) + '</div>' +
+      (s.note ? '<div class="note">' + esc(s.note) + '</div>' : '') +
+      '<div class="cta">' +
+        '<a class="btn" href="' + esc(s.url) + '" target="_blank" rel="noopener nofollow">去注册 →</a>' +
+        '<button class="btn ghost" data-url="' + esc(s.url) + '">复制链接</button>' +
+      '</div>' +
+    '</div>';
+  }
+
+  function render() {
+    var hits = list.filter(match);
+    document.getElementById('count').textContent = '匹配 ' + hits.length + ' / ' + list.length + ' 个站点';
+    var app = document.getElementById('app');
+    if (!hits.length) {
+      app.innerHTML = '<div class="empty">没有匹配的站点，换个关键词试试～</div>';
+      return;
+    }
+    var html = '';
+    ['signin', 'free'].forEach(function (g) {
+      var sub = hits.filter(function (s) { return s.group === g; });
+      if (!sub.length) return;
+      html += '<h2 class="section-title">' + esc(GROUP_LABEL[g] || g) + '<span>' + sub.length + ' 个</span></h2>';
+      html += '<div class="grid">' + sub.map(card).join('') + '</div>';
+    });
+    app.innerHTML = html;
+  }
+
+  document.getElementById('app').addEventListener('click', function (e) {
+    var btn = e.target.closest('button[data-url]');
+    if (!btn) return;
+    var url = btn.getAttribute('data-url');
+    var done = function () {
+      var old = btn.textContent;
+      btn.textContent = '已复制 ✓';
+      setTimeout(function () { btn.textContent = old; }, 1400);
+    };
+    if (navigator.clipboard) navigator.clipboard.writeText(url).then(done, done);
+    else done();
+  });
+
+  render();
+})();
+</script>
+</body>
+</html>
