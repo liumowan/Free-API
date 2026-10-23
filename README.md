@@ -44,7 +44,7 @@
 | 快跑API | https://kuaipao.ai/register?aff=NGy3 | 每日签到获取免费额度 | Claude / GPT / Glm / Deepseek 等100+个模型 | 注册无限制 |
 | BER分公益站 | https://ai.berf1.cn/sign-up?aff=tZVY | 每日签到获取免费额度 | Glm / Deepseek 等4个模型 | 注册无限制 |
 | PM-API | https://pmcat.top/#/register?aff=62Cpi9 | 完全免费，无签到 | Claude / GPT / Glm / Deepseek 等75个模型 | Linux Do信任等级需≥1方可注册 |
-| 月城公益站 | https://52ccl.net/sign-up | 每日签到获取免费额度 | xAI / GPT / Glm / Deepseek 等64个模型 | Linux Do信任等级需≥1方可注册 |
+| 月城公益站 | https://52ccl.net/sign-up?aff=LzLl | 每日签到获取免费额度 | xAI / GPT / Glm / Deepseek 等64个模型 | Linux Do信任等级需≥1方可注册 |
 | Pomelo | https://api.67.si/sign-up?aff=KOrM | 每日签到获取免费额度 | xAI / GPT / Glm / Deepseek 等17个模型 | 不支持账号密码注册，只支持第三方注册；Linux Do信任等级需≥1方可注册 |
 | hkai | https://share.hkai25.top/sign-up?aff=XKfc | 每日签到获取免费额度 | deepseek-v4.1-flash | 只支持Linux Do；信任等级需≥1方可注册 |
 | Huan API | https://ai.huan666.de/sign-up?aff=F3JY | 每日签到获取免费额度 | Claude / XAI / MOONSHOT / Deepseek 等17个模型 | Linux Do信任等级需≥2方可注册 |
