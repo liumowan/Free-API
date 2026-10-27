@@ -123,7 +123,7 @@ window.FREE_API_DATA = {
       "group": "signin",
       "url": "https://kuaipao.ai/register?aff=NGy3",
       "quota": "每日签到获取免费额度",
-      "models": "Claude / GPT / Glm / Deepseek 等 100+ 个模型",
+      "models": "Claude / GPT / Glm / Deepseek 等 130+ 个模型",
       "note": "注册无限制",
       "tags": [
         "签到",

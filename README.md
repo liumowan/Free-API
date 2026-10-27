@@ -37,8 +37,10 @@
 ## 🚀 三步上手
 
 1. **挑一个站注册** —— 点下面表格里的链接进去注册。注册页通常会自动带上邀请关系，提交前扫一眼那一栏别是空的。
-2. **生成密钥** —— 登录站内控制台，在「令牌 / API Key」页新建一把，复制 `sk-` 开头的那串。
+2. **生成密钥** —— 登录站内控制台，在「令牌 / API Key」页新建一把，复制 `sk-` 开头的那串。配 magpie 的话可以用 [Key to Magpie](https://github.com/CallMeKingsley97/key-to-magpie) 插件直接一键导入，不用手动抄。
 3. **填进客户端** —— Base URL 填站里给的接口地址，Key 填上一步复制的，模型名照抄站内列表。
+
+> 💡 不想手动抄密钥的话，可以装 [Key to Magpie](https://github.com/CallMeKingsley97/key-to-magpie) 浏览器插件 + [magpie](https://usemagpie.ai) 网关：在站内令牌页直接点「导入到 magpie」，base URL 和模型全自动填好，还能做协议互转和多站轮换。
 
 > 卡住了先翻 [常见问题](#七常见问题)，大部分报错那儿都有答案。
 
