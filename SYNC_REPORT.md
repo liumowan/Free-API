@@ -5,7 +5,11 @@
 
 ### 上游清单 kirito8/free-newapi
 
-> ⚠️ 拉取失败：fetch failed
+来源站点数：18，我们已收录：17
+
+没有未收录的站。
+
+已手动忽略（下线 / 不收录）：糯喵喵のAI驿站
 
 ### AI Coding 福利站导航 panxunying
 
