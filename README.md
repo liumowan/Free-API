@@ -30,7 +30,7 @@
 - **中转站 ≠ 官方**：可能限速、掺水、忽然跑路，甚至留底你的请求。**别传隐私、客户资料和企业代码，别绑主力账号，别充大额。**
 - **用途限定**：个人学习、实验、跑玩具项目；同时遵守各站条款和当地法律。
 
-> 📅 核验时间：**2026-10-24**
+> 📅 核验时间：**2026-11-07**
 
 ---
 
@@ -67,10 +67,12 @@
 | Huan API | https://ai.huan666.de/sign-up?aff=F3JY | 每日签到获取免费额度 | Claude / XAI / MOONSHOT / Deepseek 等17个模型 | Linux Do信任等级需≥2方可注册 |
 | 42 API | https://api.42x.shop/sign-up?aff=4QUl | 每日签到获取免费额度 | xAI / GPT / Glm / Deepseek 等113个模型 | Linux Do信任等级需≥2方可注册 |
 | DoCode | https://docode.cc/register?aff=Hm6T | 注册送 50 站内刀，填邀请码再加 250，首日 300 站内刀；之后每日免费抽奖+充值优惠券 | Claude（sonnet-5 / opus4.6）与 GPT pro/plus、Grok、Gemini 等 | New API 中转站；Anthropic + OpenAI 兼容，Claude Code / Codex 直连；加QQ群解锁超多福利；「站内刀」为站内计价单位非美元 |
+| 万家灯火 | https://wjapi.vip | 注册赠 50 站内刀 GPT「不降智」分组订阅（1 个月）；进群绑定后每日签到随机领 ¥0.1~1 通用余额 | GPT / Claude / Gemini / Grok / GLM / DeepSeek / Kimi / MiniMax 等 | 邮箱注册（需验证码，支持 QQ/126/163/Gmail）；签到与邀请需加 QQ 群 1064350952 并绑定账号；支持 Anthropic + OpenAI 兼容 |
 | Prime Relay | https://www.primerelay.online/register?aff=D3TRJRYDWQD2 | 注册送 $20 额度；支持每日签到 | Claude / GPT / DeepSeek / Grok / Gemini 等 | OpenAI 兼容；需进 QQ 群 239561070 |
-| JustDoWork | https://api.justwoker.icu/register?aff=zvgn | 注册送 ≈$70 额度；每日签到再领 ≈$22 | 登录后台查看 | New API 面板；目前仅支持 GitHub 注册（GitHub 账号需满 365 天）；支持签到与绘图 |
-| FlushAPI | https://flushapi.fun/sign-up?aff=6wiA | 注册送 $15，填邀请码共 $22.5；支持每日签到 | claude-fable-5、claude-opus-4-8、claude-opus-5、claude-sonnet-5、gpt-5.6-luna、gpt-5.6-sol、gpt-6-astra | New API 网关；仅支持 GitHub 注册；Anthropic + OpenAI 兼容，Claude Code / Codex 直连 |
 | KKtoken AI | https://kktoken.cc/sign-up?aff=lVpL | 注册送 $75，填邀请码再加 $25，首签 $20（首日共 $120）；之后每天签到 $20 | 登录后台查看 | New API 中转站；仅支持 GitHub 注册；按 token 计费（输入/输出各 $1/百万 tokens）；Anthropic + OpenAI 兼容 |
+| Codex Relay | https://codex-relay.codes/register?aff=6jAq | 注册送 $10 API 额度 | 登录后台查看 | OpenAI 兼容；注册后在控制台查看 API 接入地址与模型 ID |
+| Matrix | https://matrix.mzsjai.com/login?redirect=/app/growth?inviteCode=MXMRFO52KD2_ | 邀请注册送 600 积分；个人实名再送 2000 积分 | OpenAI / Anthropic / Google / DeepSeek / Moonshot / 智谱 / 阿里 等 | 统一 API 网关 + 开源应用商店；OpenAI 兼容；登录后台查看网关地址与 mat- Key |
+| NOFX | https://nofx.one/zh-CN/sign-in?ref=J369GHY4 | 邀请注册 10 积分 + 首签 5 积分；之后每日签到 5 积分 | 登录后台查看 | 任务制积分站；免密码登录（邮箱 magic link 或 GitHub 授权）；Discord/邀请/发推可加分 |
 
 ---
 
