@@ -1,6 +1,6 @@
 /* 由 scripts/sync.mjs 自动生成，勿手改。数据源：data/stations.json */
 window.FREE_API_DATA = {
-  "updated": "2026-10-24",
+  "updated": "2026-11-07",
   "groups": {
     "signin": "签到型中转站（额度能续，最耐用）",
     "free": "注册送 / 免费型（不用天天签到）"
@@ -241,6 +241,23 @@ window.FREE_API_DATA = {
       ]
     },
     {
+      "id": "wanjiadenghuo",
+      "name": "万家灯火",
+      "group": "signin",
+      "url": "https://wjapi.vip",
+      "quota": "注册赠 50 站内刀 GPT「不降智」分组订阅（1 个月）；进群绑定后每日签到随机领 ¥0.1~1 通用余额",
+      "models": "GPT / Claude / Gemini / Grok / GLM / DeepSeek / Kimi / MiniMax 等",
+      "note": "邮箱注册（需验证码，支持 QQ/126/163/Gmail）；签到与邀请需加 QQ 群 1064350952 并绑定账号；支持 Anthropic + OpenAI 兼容",
+      "tags": [
+        "签到",
+        "GPT",
+        "Claude",
+        "Gemini",
+        "GLM",
+        "Deepseek"
+      ]
+    },
+    {
       "id": "primerelay",
       "name": "Prime Relay",
       "group": "signin",
@@ -257,36 +274,6 @@ window.FREE_API_DATA = {
       ]
     },
     {
-      "id": "justdowork",
-      "name": "JustDoWork",
-      "group": "signin",
-      "url": "https://api.justwoker.icu/register?aff=zvgn",
-      "quota": "注册送 ≈$70 额度；每日签到再领 ≈$22",
-      "models": "登录后台查看",
-      "note": "New API 面板；目前仅支持 GitHub 注册（账号需满 365 天）；支持签到与绘图",
-      "tags": [
-        "签到",
-        "NewAPI",
-        "GitHub注册"
-      ]
-    },
-    {
-      "id": "flushapi",
-      "name": "FlushAPI",
-      "group": "signin",
-      "url": "https://flushapi.fun/sign-up?aff=6wiA",
-      "quota": "注册送 $15，填邀请码共 $22.5；支持每日签到",
-      "models": "claude-fable-5、claude-opus-4-8、claude-opus-5、claude-sonnet-5、gpt-5.6-luna、gpt-5.6-sol、gpt-6-astra",
-      "note": "New API 网关；仅支持 GitHub 注册；Anthropic + OpenAI 兼容，Claude Code / Codex 直连",
-      "tags": [
-        "签到",
-        "Claude",
-        "GPT",
-        "NewAPI",
-        "GitHub注册"
-      ]
-    },
-    {
       "id": "kktoken",
       "name": "KKtoken AI",
       "group": "signin",
@@ -298,6 +285,48 @@ window.FREE_API_DATA = {
         "签到",
         "NewAPI",
         "GitHub注册"
+      ]
+    },
+    {
+      "id": "codexrelay",
+      "name": "Codex Relay",
+      "group": "signin",
+      "url": "https://codex-relay.codes/register?aff=6jAq",
+      "quota": "注册送 $10 API 额度",
+      "models": "登录后台查看",
+      "note": "OpenAI 兼容；注册后在控制台查看 API 接入地址与模型 ID",
+      "tags": [
+        "签到",
+        "OpenAI",
+        "NewAPI"
+      ]
+    },
+    {
+      "id": "matrix",
+      "name": "Matrix",
+      "group": "signin",
+      "url": "https://matrix.mzsjai.com/login?redirect=/app/growth?inviteCode=MXMRFO52KD2_",
+      "quota": "邀请注册送 600 积分；个人实名再送 2000 积分",
+      "models": "OpenAI / Anthropic / Google / DeepSeek / Moonshot / 智谱 / 阿里 等",
+      "note": "统一 API 网关 + 开源应用商店；OpenAI 兼容；登录后台查看网关地址与 mat- Key",
+      "tags": [
+        "签到",
+        "OpenAI",
+        "NewAPI"
+      ]
+    },
+    {
+      "id": "nofx",
+      "name": "NOFX",
+      "group": "signin",
+      "url": "https://nofx.one/zh-CN/sign-in?ref=J369GHY4",
+      "quota": "邀请注册 10 积分 + 首签 5 积分；之后每日签到 5 积分",
+      "models": "登录后台查看",
+      "note": "任务制积分站；免密码登录（邮箱 magic link 或 GitHub 授权）；Discord/邀请/发推可加分",
+      "tags": [
+        "任务",
+        "积分",
+        "GitHub授权"
       ]
     },
     {
