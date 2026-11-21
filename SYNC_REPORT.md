@@ -11,9 +11,10 @@
 
 ### AI Coding 福利站导航 panxunying
 
-来源站点数：10，我们已收录：8
+来源站点数：11，我们已收录：8
 
 **未收录的新站候选：**
 
 - 星驰管家
+- OmniAI
 - Claude Agent
