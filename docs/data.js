@@ -1,6 +1,6 @@
 /* 由 scripts/sync.mjs 自动生成，勿手改。数据源：data/stations.json */
 window.FREE_API_DATA = {
-  "updated": "2026-11-07",
+  "updated": "2026-11-26",
   "groups": {
     "signin": "签到型中转站（额度能续，最耐用）",
     "free": "注册送 / 免费型（不用天天签到）"
@@ -57,7 +57,7 @@ window.FREE_API_DATA = {
       "group": "signin",
       "url": "https://api.chengmo.cc.cd/sign-up?aff=08g8",
       "quota": "每日签到获取免费额度",
-      "models": "Claude / GPT / Glm / Deepseek 等 46 个模型",
+      "models": "Claude / GPT / Glm / Deepseek 等140个模型",
       "note": "注册无限制；Linux Do 需 ≥1 方可注册",
       "tags": [
         "签到",
@@ -90,7 +90,7 @@ window.FREE_API_DATA = {
       "group": "signin",
       "url": "https://api456.me/sign-up?aff=0GtR",
       "quota": "每日签到获取免费额度",
-      "models": "Claude / GPT / Glm / Deepseek / Gemini / qwen 等 29 个模型",
+      "models": "Claude / GPT / Glm / Deepseek / Gemini / qwen 等42个模型",
       "note": "注册无限制",
       "tags": [
         "签到",
@@ -123,7 +123,7 @@ window.FREE_API_DATA = {
       "group": "signin",
       "url": "https://kuaipao.ai/register?aff=NGy3",
       "quota": "每日签到获取免费额度",
-      "models": "Claude / GPT / Glm / Deepseek 等 130+ 个模型",
+      "models": "Claude / GPT / Glm / Deepseek 等130+个模型",
       "note": "注册无限制",
       "tags": [
         "签到",
@@ -153,7 +153,7 @@ window.FREE_API_DATA = {
       "group": "signin",
       "url": "https://52ccl.net/sign-up?aff=LzLl",
       "quota": "每日签到获取免费额度",
-      "models": "xAI / GPT / Glm / Deepseek 等 64 个模型",
+      "models": "xAI / GPT / Glm / Deepseek 等66个模型",
       "note": "Linux Do 信任等级需 ≥1 方可注册",
       "tags": [
         "签到",
@@ -169,7 +169,7 @@ window.FREE_API_DATA = {
       "group": "signin",
       "url": "https://api.67.si/sign-up?aff=KOrM",
       "quota": "每日签到获取免费额度",
-      "models": "xAI / GPT / Glm / Deepseek 等 17 个模型",
+      "models": "xAI / GPT / qwen 等13个模型",
       "note": "不支持账号密码注册，只支持第三方注册；Linux Do 信任等级需 ≥1",
       "tags": [
         "签到",
@@ -185,7 +185,7 @@ window.FREE_API_DATA = {
       "group": "signin",
       "url": "https://share.hkai25.top/sign-up?aff=XKfc",
       "quota": "每日签到获取免费额度",
-      "models": "deepseek-v4.1-flash",
+      "models": "deepseek-v4.1-flash 等2个模型",
       "note": "只支持 Linux Do；信任等级需 ≥1",
       "tags": [
         "签到",
@@ -199,7 +199,7 @@ window.FREE_API_DATA = {
       "group": "signin",
       "url": "https://ai.huan666.de/sign-up?aff=F3JY",
       "quota": "每日签到获取免费额度",
-      "models": "Claude / xAI / Moonshot / Deepseek 等 17 个模型",
+      "models": "Claude / Glm / Deepseek 等4个模型",
       "note": "Linux Do 信任等级需 ≥2 方可注册",
       "tags": [
         "签到",
@@ -214,7 +214,7 @@ window.FREE_API_DATA = {
       "group": "signin",
       "url": "https://api.42x.shop/sign-up?aff=4QUl",
       "quota": "每日签到获取免费额度",
-      "models": "xAI / GPT / Glm / Deepseek 等 113 个模型",
+      "models": "xAI / GPT / Glm / Deepseek 等157个模型",
       "note": "Linux Do 信任等级需 ≥2 方可注册",
       "tags": [
         "签到",
@@ -274,20 +274,6 @@ window.FREE_API_DATA = {
       ]
     },
     {
-      "id": "kktoken",
-      "name": "KKtoken AI",
-      "group": "signin",
-      "url": "https://kktoken.cc/sign-up?aff=lVpL",
-      "quota": "注册送 $75，填邀请码再加 $25，首签 $20（首日共 $120）；之后每天签到 $20",
-      "models": "登录后台查看",
-      "note": "New API 中转站；仅支持 GitHub 注册；按 token 计费（输入/输出各 $1/百万 tokens）；Anthropic + OpenAI 兼容",
-      "tags": [
-        "签到",
-        "NewAPI",
-        "GitHub注册"
-      ]
-    },
-    {
       "id": "codexrelay",
       "name": "Codex Relay",
       "group": "signin",
@@ -316,20 +302,6 @@ window.FREE_API_DATA = {
       ]
     },
     {
-      "id": "nofx",
-      "name": "NOFX",
-      "group": "signin",
-      "url": "https://nofx.one/zh-CN/sign-in?ref=J369GHY4",
-      "quota": "邀请注册 10 积分 + 首签 5 积分；之后每日签到 5 积分",
-      "models": "登录后台查看",
-      "note": "任务制积分站；免密码登录（邮箱 magic link 或 GitHub 授权）；Discord/邀请/发推可加分",
-      "tags": [
-        "任务",
-        "积分",
-        "GitHub授权"
-      ]
-    },
-    {
       "id": "pmapi",
       "name": "PM-API",
       "group": "free",
@@ -352,7 +324,7 @@ window.FREE_API_DATA = {
       "group": "free",
       "url": "https://blockrun.ai",
       "quota": "完全免费，无签到",
-      "models": "英伟达 等 7 个模型",
+      "models": "英伟达 等9个免费模型",
       "note": "",
       "tags": [
         "免费"
@@ -412,6 +384,92 @@ window.FREE_API_DATA = {
         "Deepseek",
         "GLM",
         "Gemini"
+      ]
+    },
+    {
+      "id": "cocoapi",
+      "name": "COCO API",
+      "group": "signin",
+      "url": "https://api.cocoapi.top/sign-up",
+      "quota": "注册送 ¥0.5，每日签到获取免费额度",
+      "models": "375 个模型，Claude 全系 / GPT / Gemini / DeepSeek·Qwen·GLM 等国模 / Grok / Kimi，另有图像、视频、语音",
+      "note": "注册无限制",
+      "tags": [
+        "签到",
+        "Claude",
+        "GPT",
+        "Gemini",
+        "多模态"
+      ]
+    },
+    {
+      "id": "yisama",
+      "name": "YisamaAPI",
+      "group": "signin",
+      "url": "https://api.yisama.asia",
+      "quota": "每日全站共享的免费 Token 额度",
+      "models": "GPT / Claude / Gemini / DeepSeek / Qwen / Kimi / GLM / MiniMax 等",
+      "note": "共享额度先到先得、当日用完即止，并非每位用户独享固定日额度，也不是全站模型永久免费",
+      "tags": [
+        "签到",
+        "共享额度",
+        "多模型"
+      ]
+    },
+    {
+      "id": "xingchi",
+      "name": "星驰管家",
+      "group": "free",
+      "url": "https://t.me/xingchi66bot",
+      "quota": "通过邀请链接注册可获得 $1000 额度（倍率 0.25）",
+      "models": "GPT6a",
+      "note": "需 Telegram 账号；在 @xingchi66bot 内点 Start 按提示注册，接入地址与 Key 在机器人内查看",
+      "tags": [
+        "Telegram",
+        "大额赠送",
+        "GPT"
+      ]
+    },
+    {
+      "id": "omniai",
+      "name": "OmniAI",
+      "group": "free",
+      "url": "https://sub.omniai.cc",
+      "quota": "免费使用 GPT-6 系列 API，不限调用额度与次数",
+      "models": "GPT-6 系列",
+      "note": "需进 Telegram 群 https://t.me/omniai_zh 领取邀请码；新进群无邀请码可推广截图后回群领取；账号密码登录",
+      "tags": [
+        "Telegram",
+        "不限额度",
+        "GPT"
+      ]
+    },
+    {
+      "id": "claudeagent",
+      "name": "Claude Agent",
+      "group": "free",
+      "url": "https://claudeagent.com.cn",
+      "quota": "限时福利组开放 DeepSeek / GLM / MiniMax 的 Flash 模型；Claude 官转按量计费",
+      "models": "Claude Opus / Sonnet（官转）+ DeepSeek / GLM / MiniMax Flash（福利组）",
+      "note": "开放注册，账号密码登录，无每日签到；「令牌」页选「claude官转」即可按量调用",
+      "tags": [
+        "Claude",
+        "官转",
+        "按量"
+      ]
+    },
+    {
+      "id": "teapotrouter",
+      "name": "TeapotRouter",
+      "group": "free",
+      "url": "https://teapotrouter.com/register",
+      "quota": "注册一次性送 40,000 站内积分；无每日签到",
+      "models": "Claude 全系 / GPT 全系",
+      "note": "付费中转站，无长期免费模型；积分用完需充值",
+      "tags": [
+        "付费",
+        "Claude",
+        "GPT"
       ]
     }
   ]
