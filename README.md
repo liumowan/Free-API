@@ -30,7 +30,7 @@
 - **中转站 ≠ 官方**：可能限速、掺水、忽然跑路，甚至留底你的请求。**别传隐私、客户资料和企业代码，别绑主力账号，别充大额。**
 - **用途限定**：个人学习、实验、跑玩具项目；同时遵守各站条款和当地法律。
 
-> 📅 核验时间：**2026-11-07**
+> 📅 核验时间：**2026-11-26**
 
 ---
 
@@ -55,24 +55,24 @@
 | Any Router | https://anyrouter.top/register?aff=b7Zz | 完全免费，新用户注册赠 $100，签到送 $25 | 10+ 模型（主要为Claude） | Linux Do信任等级需≥2方可注册 |
 | Agent Router | https://agentrouter.org/register?aff=Wpra | 完全免费，新用户注册赠 $100，签到送 $25 | GPT / Deepseek | github注册满5年或者Linux Do信任等级≥0方可注册 |
 | 维云模型开放平台 | https://vsllm.cc/register?aff=WL0i | 每日任务获取免费额度 | Claude / GPT / Glm / Deepseek 等69个模型 | 注册无限制 |
-| CM-API-公益站 | https://api.chengmo.cc.cd/sign-up?aff=08g8 | 每日签到获取免费额度 | Claude / GPT / Glm / Deepseek 等46个模型 | 注册无限制；Linux Do需≥1方可注册 |
+| CM-API-公益站 | https://api.chengmo.cc.cd/sign-up?aff=08g8 | 每日签到获取免费额度 | Claude / GPT / Glm / Deepseek 等140个模型 | 注册无限制；Linux Do需≥1方可注册 |
 | ZeroCat | https://zero.cat/sign-up?aff=6ow1 | 每日签到获取免费额度 | Claude / GPT / Glm / Deepseek / xAI / Gemini 等40个模型 |  |
-| 可萌中转站 | https://api456.me/sign-up?aff=0GtR | 每日签到获取免费额度 | Claude / GPT / Glm / Deepseek / Gemini / qwen 等29个模型 | 注册无限制 |
+| 可萌中转站 | https://api456.me/sign-up?aff=0GtR | 每日签到获取免费额度 | Claude / GPT / Glm / Deepseek / Gemini / qwen 等42个模型 | 注册无限制 |
 | Factory.pub | https://factory.pub/sign-up?aff=kGm7 | 每日签到获取免费额度 | Claude / GPT / Glm / Deepseek 等26个模型 | 目前只支持yaohuo和github注册 |
-| 快跑API | https://kuaipao.ai/register?aff=NGy3 | 每日签到获取免费额度 | Claude / GPT / Glm / Deepseek 等100+个模型 | 注册无限制 |
-| BER分公益站 | https://ai.berf1.cn/sign-up?aff=tZVY | 每日签到获取免费额度 | Glm / Deepseek 等4个模型 | 注册无限制 |
-| 月城公益站 | https://52ccl.net/sign-up?aff=LzLl | 每日签到获取免费额度 | xAI / GPT / Glm / Deepseek 等64个模型 | Linux Do信任等级需≥1方可注册 |
-| Pomelo | https://api.67.si/sign-up?aff=KOrM | 每日签到获取免费额度 | xAI / GPT / Glm / Deepseek 等17个模型 | 不支持账号密码注册，只支持第三方注册；Linux Do信任等级需≥1方可注册 |
-| hkai | https://share.hkai25.top/sign-up?aff=XKfc | 每日签到获取免费额度 | deepseek-v4.1-flash | 只支持Linux Do；信任等级需≥1方可注册 |
-| Huan API | https://ai.huan666.de/sign-up?aff=F3JY | 每日签到获取免费额度 | Claude / XAI / MOONSHOT / Deepseek 等17个模型 | Linux Do信任等级需≥2方可注册 |
-| 42 API | https://api.42x.shop/sign-up?aff=4QUl | 每日签到获取免费额度 | xAI / GPT / Glm / Deepseek 等113个模型 | Linux Do信任等级需≥2方可注册 |
+| 快跑API | https://kuaipao.ai/register?aff=NGy3 | 每日签到获取免费额度 | Claude / GPT / Glm / Deepseek 等130+个模型 | 注册无限制 |
+| BER分公益站 | https://ai.berf1.cn/sign-up?aff=tZVY | 每日签到获取免费额度 | GPT / Deepseek 等10个模型 | 注册无限制 |
+| 月城公益站 | https://52ccl.net/sign-up?aff=LzLl | 每日签到获取免费额度 | xAI / GPT / Glm / Deepseek 等66个模型 | Linux Do信任等级需≥1方可注册 |
+| Pomelo | https://api.67.si/sign-up?aff=KOrM | 每日签到获取免费额度 | xAI / GPT / qwen 等13个模型 | 不支持账号密码注册，只支持第三方注册；Linux Do信任等级需≥1方可注册 |
+| hkai | https://share.hkai25.top/sign-up?aff=XKfc | 每日签到获取免费额度 | deepseek-v4.1-flash 等2个模型 | 只支持Linux Do；信任等级需≥1方可注册 |
+| Huan API | https://ai.huan666.de/sign-up?aff=F3JY | 每日签到获取免费额度 | Claude / Glm / Deepseek 等4个模型 | Linux Do信任等级需≥2方可注册 |
+| 42 API | https://api.42x.shop/sign-up?aff=4QUl | 每日签到获取免费额度 | xAI / GPT / Glm / Deepseek 等157个模型 | Linux Do信任等级需≥2方可注册 |
 | DoCode | https://docode.cc/register?aff=Hm6T | 注册送 50 站内刀，填邀请码再加 250，首日 300 站内刀；之后每日免费抽奖+充值优惠券 | Claude（sonnet-5 / opus4.6）与 GPT pro/plus、Grok、Gemini 等 | New API 中转站；Anthropic + OpenAI 兼容，Claude Code / Codex 直连；加QQ群解锁超多福利；「站内刀」为站内计价单位非美元 |
 | 万家灯火 | https://wjapi.vip | 注册赠 50 站内刀 GPT「不降智」分组订阅（1 个月）；进群绑定后每日签到随机领 ¥0.1~1 通用余额 | GPT / Claude / Gemini / Grok / GLM / DeepSeek / Kimi / MiniMax 等 | 邮箱注册（需验证码，支持 QQ/126/163/Gmail）；签到与邀请需加 QQ 群 1064350952 并绑定账号；支持 Anthropic + OpenAI 兼容 |
 | Prime Relay | https://www.primerelay.online/register?aff=D3TRJRYDWQD2 | 注册送 $20 额度；支持每日签到 | Claude / GPT / DeepSeek / Grok / Gemini 等 | OpenAI 兼容；需进 QQ 群 239561070 |
-| KKtoken AI | https://kktoken.cc/sign-up?aff=lVpL | 注册送 $75，填邀请码再加 $25，首签 $20（首日共 $120）；之后每天签到 $20 | 登录后台查看 | New API 中转站；仅支持 GitHub 注册；按 token 计费（输入/输出各 $1/百万 tokens）；Anthropic + OpenAI 兼容 |
 | Codex Relay | https://codex-relay.codes/register?aff=6jAq | 注册送 $10 API 额度 | 登录后台查看 | OpenAI 兼容；注册后在控制台查看 API 接入地址与模型 ID |
 | Matrix | https://matrix.mzsjai.com/login?redirect=/app/growth?inviteCode=MXMRFO52KD2_ | 邀请注册送 600 积分；个人实名再送 2000 积分 | OpenAI / Anthropic / Google / DeepSeek / Moonshot / 智谱 / 阿里 等 | 统一 API 网关 + 开源应用商店；OpenAI 兼容；登录后台查看网关地址与 mat- Key |
-| NOFX | https://nofx.one/zh-CN/sign-in?ref=J369GHY4 | 邀请注册 10 积分 + 首签 5 积分；之后每日签到 5 积分 | 登录后台查看 | 任务制积分站；免密码登录（邮箱 magic link 或 GitHub 授权）；Discord/邀请/发推可加分 |
+| COCO API | https://api.cocoapi.top/sign-up | 注册送 ¥0.5，每日签到获取免费额度 | 375 个模型，Claude 全系 / GPT / Gemini / DeepSeek·Qwen·GLM 等国模 / Grok / Kimi，另有图像、视频、语音 | 注册无限制 |
+| YisamaAPI | https://api.yisama.asia | 每日全站共享的免费 Token 额度 | GPT / Claude / Gemini / DeepSeek / Qwen / Kimi / GLM / MiniMax 等 | 共享额度先到先得、当日用完即止，并非每位用户独享固定日额度，也不是全站模型永久免费 |
 
 ---
 
@@ -83,11 +83,15 @@
 | 站点 | 注册链接 | 额度 | 可用模型 | 说明 |
 | --- | --- | --- | --- | --- |
 | PM-API | https://pmcat.top/#/register?aff=62Cpi9 | 完全免费，无签到 | Claude / GPT / Glm / Deepseek 等75个模型 | Linux Do信任等级需≥1方可注册 |
-| BlockRun | https://blockrun.ai | 完全免费，无签到 | 英伟达 等7个模型 |  |
+| BlockRun | https://blockrun.ai | 完全免费，无签到 | 英伟达 等9个免费模型 |  |
 | Happy Code | https://happycodeai.com/register?aff=9LKMZ833F988 | 注册送 $100 额度；加入 QQ 群领新人体验包 | 登录后台查看 | 支持 OIDC（NodeLoc）/ 账号密码登录；需加 QQ 群 367746547 找群主领取新人体验包 |
 | 简单AI聚合站 (APIOP) | https://apiop.cn/register?invite_code=QEN2AKUH | 注册送 20M Tokens；部分自建模型支持免费调用 | DeepSeek / GLM / Kimi / MiniMax 等 5 个精选模型 | OpenAI 兼容·按量付费；官方折扣渠道，一个 Key 全网调用 |
 | NovAI (AI API Pro) | https://aiapi-pro.com/register | 注册送 $2（无需信用卡） | 5 个永久免费无限模型：glm-4.7-flash、glm-4.6v-flash、glm-4.1v-thinking-flash、cogview-3-flash、cogvideox-flash | 121 个中国前沿模型（DeepSeek/Qwen/GLM/Kimi/Seedance/MiniMax/混元/CogVideo）聚合在一个 OpenAI 兼容端点；0% 平台加价；海外无需中国手机号/支付宝 |
 | onomeo | https://onomeo.com | 免费用量按次数给：17 个免费模型，每个账号每 5 小时 30 次，不用签到、没有站内积分；网页画图每个账号每天 10 张，免费；注册不用绑卡；付费可选（5 美元起充，余额以美元显示、不过期，按量用于 Claude、GPT 等大模型和 DeepSeek 编程专线），不付费也能用免费模型 | 一个 OpenAI 格式密钥可调 17 个免费模型（DeepSeek V4 Flash / GLM / Gemini Flash / Codestral 等），另有按量付费的大模型（Claude / GPT / Gemini Pro 等 13 个）和 DeepSeek 编程专线 | 个人小站，限制严格：每个密钥每分钟 12 次；每个账号每 5 小时 30 次（长消息按长度折成几次），付款后 35 天内放宽到 90 次；全站免费次数共用一份总量，人多时可能暂时用完；大模型和编程专线按量付费，仅向充过值的账号开放；经邀请链接注册并在两个不同日期使用后，邀请双方的免费次数提高到每 5 小时 45 次（7 天）；免费模型走各家模型服务商自己的免费档，很多上游可能拿提示词训练（每个模型页有注明）。公测中，不保证所有功能都能正常使用，正在大量收集用户反馈，欢迎提交 |
+| 星驰管家 | https://t.me/xingchi66bot | 通过邀请链接注册可获得 $1000 额度（倍率 0.25） | GPT6a | 需 Telegram 账号；在 @xingchi66bot 内点 Start 按提示注册，接入地址与 Key 在机器人内查看 |
+| OmniAI | https://sub.omniai.cc | 免费使用 GPT-6 系列 API，不限调用额度与次数 | GPT-6 系列 | 需进 Telegram 群 https://t.me/omniai_zh 领取邀请码；新进群无邀请码可推广截图后回群领取；账号密码登录 |
+| Claude Agent | https://claudeagent.com.cn | 限时福利组开放 DeepSeek / GLM / MiniMax 的 Flash 模型；Claude 官转按量计费 | Claude Opus / Sonnet（官转）+ DeepSeek / GLM / MiniMax Flash（福利组） | 开放注册，账号密码登录，无每日签到；「令牌」页选「claude官转」即可按量调用 |
+| TeapotRouter | https://teapotrouter.com/register | 注册一次性送 40,000 站内积分；无每日签到 | Claude 全系 / GPT 全系 | 付费中转站，无长期免费模型；积分用完需充值 |
 
 ---
 
